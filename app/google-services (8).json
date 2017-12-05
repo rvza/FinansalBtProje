@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "484388123293",
+    "firebase_url": "https://kullanicigirisi-c7a43.firebaseio.com",
+    "project_id": "kullanicigirisi-c7a43",
+    "storage_bucket": "kullanicigirisi-c7a43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484388123293:android:a9b4701343283ef3",
+        "android_client_info": {
+          "package_name": "com.example.pinarmnkl.kullanici_giris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484388123293-vue3musecneirr4qhjto96d31j6kbva8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyR-Y9a9tNwHiZbYW7M8H_ebgbnx9-uag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

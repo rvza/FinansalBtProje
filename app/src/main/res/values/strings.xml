@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kullanici_Giris</string>
+    <string name="Email">Email</string>
+    <string name="Parola">Parola</string>
+    <string name="cikisyap">Çıkış Yap</string>
+    <string name="kullaniciSil">Kullanıcıyı Sil</string>
+    <string name="drawer_open">Açık</string>
+    <string name="drawer_close">Kapalı</string>
+</resources>
