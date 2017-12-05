@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "515462422431",
+    "firebase_url": "https://kullanicigirisi-94324.firebaseio.com",
+    "project_id": "kullanicigirisi-94324",
+    "storage_bucket": "kullanicigirisi-94324.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515462422431:android:a9b4701343283ef3",
+        "android_client_info": {
+          "package_name": "com.example.pinarmnkl.kullanici_giris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515462422431-prq5k8p4lgn6qfj68u74hnff0b2l03i5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pinarmnkl.kullanici_giris",
+            "certificate_hash": "186a1bb0ca52fc3ebd59226ed5f261a2945fc157"
+          }
+        },
+        {
+          "client_id": "515462422431-0cr7i9sfmrht6r89106rcfmg1cjnpkci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOg_dj_eZL7_rgsBF0LSql9kSOaxoMY9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515462422431-0cr7i9sfmrht6r89106rcfmg1cjnpkci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
