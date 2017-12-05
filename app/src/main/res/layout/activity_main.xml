@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/backgroundColor"
+    tools:context="com.example.pinarmnkl.kullanici_giris.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hqdefault"
+        android:layout_marginBottom="30dp"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:hint="@string/Email"
+            android:id="@+id/uyeEmail" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:id="@+id/uyeParola"
+            android:hint="@string/Parola" />
+
+
+
+    <Button
+        android:text="Üye Ol!"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFFF"
+        android:id="@+id/yeniUyeButton"
+        android:background="@color/uyeButtonColor"/>
+
+
+    <Button
+        android:text="Zaten üye misin?"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:id="@+id/uyeGirisButton"
+        android:background="@null"
+        android:textColor="#FFFF"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/text"
+        android:textColor="@color/uyeButtonColor"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/kullaniciSil"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/kullaniciSil"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_bright"/>
+    <Button
+        android:id="@+id/cikis_yap"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/cikisyap"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@color/backgroundColor"/>
+
+</LinearLayout>
